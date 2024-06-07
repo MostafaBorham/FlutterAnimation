@@ -1,11 +1,3 @@
-import 'package:animation_flutter/hero_animation.dart';
-import 'package:animation_flutter/lottie_and_animatedText.dart';
-import 'package:animation_flutter/my_animated_container.dart';
-import 'package:animation_flutter/my_animation_controller.dart';
-import 'package:animation_flutter/my_ticker.dart';
-import 'package:animation_flutter/my_tween_animation_builder.dart';
-import 'package:animation_flutter/route_transation/page1.dart';
-import 'package:animation_flutter/transforms/transform_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TransformPage(),
+      home: null,
     );
   }
 }
