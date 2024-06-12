@@ -1,3 +1,4 @@
+import 'package:animation_flutter/new_version/AnimationWithController/AnimatedBuilder/my_animated_builder.dart';
 import 'package:animation_flutter/new_version/AnimationWithController/FooTransationWidgets/FunctionTransitionTypes/my_rotation_transition.dart';
 import 'package:animation_flutter/new_version/AnimationWithController/FooTransationWidgets/WidgetTransitionTypes/my_align_transition.dart';
 import 'package:animation_flutter/new_version/AnimationWithoutController/AnimatedFooWidgets/AnimatedFunctionTypes/my_animated_scale.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         ScreenUtil.init(context);
         return Theme(data: ThemeData(
           primarySwatch: Colors.blue,
-        ), child: const MyRotationTransition());
+        ), child: const MyAnimatedBuilder());
       },
     );
   }
