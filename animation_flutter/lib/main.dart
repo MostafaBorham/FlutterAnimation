@@ -1,8 +1,12 @@
 import 'package:animation_flutter/new_version/AnimationWithController/AnimatedBuilder/my_animated_builder.dart';
+import 'package:animation_flutter/new_version/AnimationWithController/FooTransationWidgets/FunctionTransitionTypes/my_fade_transition.dart';
 import 'package:animation_flutter/new_version/AnimationWithController/FooTransationWidgets/FunctionTransitionTypes/my_rotation_transition.dart';
 import 'package:animation_flutter/new_version/AnimationWithController/FooTransationWidgets/WidgetTransitionTypes/my_align_transition.dart';
+import 'package:animation_flutter/new_version/AnimationWithoutController/AnimatedFooWidgets/AnimatedFunctionTypes/my_animated_rotation.dart';
 import 'package:animation_flutter/new_version/AnimationWithoutController/AnimatedFooWidgets/AnimatedFunctionTypes/my_animated_scale.dart';
 import 'package:animation_flutter/new_version/AnimationWithoutController/AnimatedFooWidgets/AnimatedWidgetTypes/my_animated_container.dart';
+import 'package:animation_flutter/new_version/AnimationWithoutController/AnimatedFooWidgets/AnimatedWidgetTypes/my_animated_default_text_style.dart';
+import 'package:animation_flutter/new_version/AnimationWithoutController/AnimatedFooWidgets/AnimatedWidgetTypes/my_animated_opacity.dart';
 import 'package:animation_flutter/new_version/AnimationWithoutController/TweenAnimationBuilder/my_tween_animation_builder.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -25,7 +29,7 @@ class MyApp extends StatelessWidget {
         ScreenUtil.init(context);
         return Theme(data: ThemeData(
           primarySwatch: Colors.blue,
-        ), child: const MyAnimatedBuilder());
+        ), child: const MyFadeTransition());
       },
     );
   }
